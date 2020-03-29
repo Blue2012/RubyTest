@@ -68,7 +68,9 @@ URLのパスから、特定のコントローラとアクションを選択す�
 
 >1. ~/aboutのパスにアクセスする
 >2. route.rbファイルに記載されている get "about" => "top#about" が参照される。
+
 >   TopControllerのaboutアクションが呼び出される
 >3. route.rbファイルに記載されている post "login" => "sessions#login"が参照される。
+
 >   SessionsControllerのloginアクションが呼び出される
 
